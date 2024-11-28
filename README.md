@@ -52,19 +52,18 @@ python sistema_tickets.py
 ```
 
 #### Capturas de Pantalla
-![Pantalla de inicio](pantalla_bienvenida.png)
-![Pantalla de alta de ticket](pantalla_alta_ticket.png)
-![Pantalla para buscar el ticket por numero](pantalla_buscar_ticket.png)
-![Pantalla del ticket encontrado](pantalla_ticket_encontrado.png)
-![Pantalla del ticket no encontrado](pantalla_ticket_no_encontrado.png)
-![Pantalla para leer un nuevo ticket](pantalla_buscar_nuevo_ticket.png)
+![Pantalla de inicio](images/pantalla_bienvenida.png)
+![Pantalla de alta de ticket](images/pantalla_alta_ticket.png)
+![Pantalla para buscar el ticket por numero](images/pantalla_buscar_ticket.png)
+![Pantalla del ticket encontrado](images/pantalla_ticket_encontrado.png)
+![Pantalla del ticket no encontrado](images/pantalla_ticket_no_encontrado.png)
+![Pantalla para leer un nuevo ticket](images/pantalla_buscar_nuevo_ticket.png)
 
 
 #### Funcionalidades
 - [x] Alta de tickets
 - [x] Lectura de tickets
 - [x] Almacenamiento en CSV
-- [ ] Exportación de tickets (funcionalidad futura)
 
 ### 2. Conversor de Temperaturas
 
@@ -111,8 +110,7 @@ python conversor_temperaturas.py
 #### Funcionalidades
 - [x] Conversión de Celsius a Fahrenheit
 - [x] Interfaz gráfica
-- [ ] Conversión inversa (Fahrenheit a Celsius)
-- [ ] Soporte para más escalas de temperatura
+- [x] Conversión inversa (Fahrenheit a Celsius)
 
 ## Instrucciones de Ejecución
 
