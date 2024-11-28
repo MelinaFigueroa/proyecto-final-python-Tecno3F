@@ -26,7 +26,7 @@ class ConversorTemperaturas:
         self.entrada_temp.grid(row=0, column=1, padx=5)
         
         # Selector de escala de entrada
-        self.escala_entrada = tk.StringVar(value="Seleccionar")
+        self.escala_entrada = tk.StringVar(value="Seleccionar unidad")
         escalas_entrada = ["Celsius", "Fahrenheit"]
         menu_entrada = tk.OptionMenu(frame_principal, self.escala_entrada, *escalas_entrada)
         menu_entrada.grid(row=0, column=2, padx=5)
@@ -42,9 +42,14 @@ class ConversorTemperaturas:
     
     def convertir_temperatura(self):
         try:
+            # Validar selección de escala
+            escala = self.escala_entrada.get()
+            if escala == "Seleccionar unidad":
+                messagebox.showerror("Error", "Por favor, seleccione una unidad válida.")
+                return
+            
             # Obtener valor de entrada
             temperatura = float(self.entrada_temp.get())
-            escala = self.escala_entrada.get()
             
             # Convertir según la escala
             if escala == "Celsius":

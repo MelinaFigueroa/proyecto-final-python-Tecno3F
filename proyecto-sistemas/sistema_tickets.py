@@ -18,23 +18,31 @@ class SistemaTickets:
         """Carga los tickets desde un archivo CSV"""
         if not os.path.exists('tickets.csv'):
             return []
-        
-        with open('tickets.csv', 'r', newline='', encoding='utf-8') as archivo:
-            lector = csv.DictReader(archivo)
-            return list(lector)
+        try:
+            with open('tickets.csv', 'r', newline='', encoding='utf-8') as archivo:
+                lector = csv.DictReader(archivo)
+                return list(lector)
+            
+        except Exception as e:
+            messagebox.showerror("Error", f"Hubo un problema al cargar los tickets: {str(e)}")
+        return []
     
     def guardar_ticket(self, ticket):
         """Guarda un ticket en el archivo CSV"""
-        archivo_existe = os.path.exists('tickets.csv')
+        try:
+            archivo_existe = os.path.exists('tickets.csv')
         
-        with open('tickets.csv', 'a', newline='', encoding='utf-8') as archivo:
-            campos = ['numero', 'nombre', 'sector', 'asunto', 'problema']
-            escritor = csv.DictWriter(archivo, fieldnames=campos)
+            with open('tickets.csv', 'a', newline='', encoding='utf-8') as archivo:
+                campos = ['numero', 'nombre', 'sector', 'asunto', 'problema']
+                escritor = csv.DictWriter(archivo, fieldnames=campos)
             
-            if not archivo_existe:
-                escritor.writeheader()
+                if not archivo_existe:
+                    escritor.writeheader()
             
-            escritor.writerow(ticket)
+                escritor.writerow(ticket)
+        except Exception as e:
+            messagebox.showerror("Error", f"No se pudo guardar el ticket: {str(e)}")
+            
     
     def crear_interfaz(self):
         """Crea la interfaz gráfica principal"""

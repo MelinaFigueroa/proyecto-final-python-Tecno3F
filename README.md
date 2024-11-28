@@ -69,7 +69,7 @@ python sistema_tickets.py
 
 #### Descripción
 Aplicación de conversión de temperaturas con:
-- Conversión manual entre Celsius y Fahrenheit
+- Conversión manual entre Celsius a Fahrenheit y viseversa
 - Interfaz gráfica desarrollada con Tkinter
 
 #### Características
@@ -105,7 +105,9 @@ python conversor_temperaturas.py
 ```
 
 #### Capturas de Pantalla
-[Insertar capturas de pantalla de la aplicación]
+![Pantalla de inicio del conversor](images/pantalla_bienvenida_conversor.png)
+![Convirtiendo de Fahrenheit a Celcius](images/fahrenheit_celcius.png.png)
+![Convirtiendo de Celcius a Fahrenheit](images/celcius_fahrenheit.png)
 
 #### Funcionalidades
 - [x] Conversión de Celsius a Fahrenheit
