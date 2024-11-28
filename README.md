@@ -106,7 +106,7 @@ python conversor_temperaturas.py
 
 #### Capturas de Pantalla
 ![Pantalla de inicio del conversor](images/pantalla_bienvenida_conversor.png)
-![Convirtiendo de Fahrenheit a Celcius](images/fahrenheit_celcius.png.png)
+![Convirtiendo de Fahrenheit a Celcius](images/fahrenheit_celcius.png)
 ![Convirtiendo de Celcius a Fahrenheit](images/celcius_fahrenheit.png)
 
 #### Funcionalidades
