@@ -111,8 +111,8 @@ python conversor_temperaturas.py
 
 #### Funcionalidades
 - [x] Conversión de Celsius a Fahrenheit
-- [x] Interfaz gráfica
 - [x] Conversión inversa (Fahrenheit a Celsius)
+- [x] Interfaz gráfica
 
 ## Instrucciones de Ejecución
 
