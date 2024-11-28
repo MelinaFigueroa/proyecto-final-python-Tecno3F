@@ -152,6 +152,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 
 ## Contacto
 Autora: Melina Figueroa
+https://www.linkedin.com/in/melinagfigueroa/
+
 ```
 https://github.com/MelinaFigueroa/proyecto-final-python-Tecno3F.git
-https://www.linkedin.com/in/melinagfigueroa/
