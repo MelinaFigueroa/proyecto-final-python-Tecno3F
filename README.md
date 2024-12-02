@@ -137,14 +137,6 @@ source venv/bin/activate
 pip install tkinter
 ```
 
-## Contribuciones
-Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
-1. Hacer fork del repositorio
-2. Crear rama de características
-3. Commit de cambios
-4. Push a la rama
-5. Abrir un Pull Request
-
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
 
