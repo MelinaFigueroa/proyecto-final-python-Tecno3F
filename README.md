@@ -42,7 +42,6 @@ proyecto-sistemas/
 │
 ├── sistema_tickets.py       # Script principal de tickets
 ├── tickets.csv              # Archivo de almacenamiento de tickets
-└── README.md                # Documentación del proyecto
 ```
 
 #### Uso
@@ -94,8 +93,7 @@ cd conversor-temperaturas
 ```
 conversor-temperaturas/
 │
-├── conversor_temperaturas.py  # Script principal 
-└── README.md                  # Documentación del proyecto
+├── conversor_temperaturas.py  # Script principal
 ```
 
 #### Uso
